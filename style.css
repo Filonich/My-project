@@ -8,7 +8,7 @@ body{
     height: 25px;
 }
 .Form{
-    background-image: url('Form-bg.png');
+    background-image: url("img/Form-bg.png");
     height: 346px;
 }
 .Form-container{
@@ -28,22 +28,18 @@ body{
 }
 ul{
     display: inline-block;
-    margin-top:21px;
-    margin-right:57px;
+    margin:21px 57px 0 0;
 }
 li,  .tableLink  {
-color:#fff;
-    font-size: 15px;
-    font-family: arial;
-    /*margin:5px 30px 0 0;*/
+    color:#fff;
+    font: 15px arial;
     line-height:25px;
 }
 .Form-Arrow{
-    background-image: url('big_arrow.png');
+    background-image: url("img/big_arrow.png");
     width: 418px;
     height: 91px;
-    margin-left:25px;
-    margin-top: 14px;
+    margin: 30px 0 0 25px;
     float: left;
 }
 .Form-Arrow-select {
@@ -66,20 +62,15 @@ color:#fff;
     margin-top: 1px;
 }
 .choose-btn{
-    background: url(but1.png);
-    margin-left: auto;
-    margin-top:38px;
-    margin-right:39px;
+    background: url("img/but1.png");
+    margin: 54px 39px 0 auto;
     width: 158px;
     height: 53px;
     border-radius: 10px;
-
 }
 .choose-btn:hover{
-    background: url(but1-hover.png);
-    margin-left: auto;
-    margin-top:38px;
-    margin-right:39px;
+    background: url("img/but1-hover.png");
+    margin: 54px 39px 0 auto;
     width: 158px;
     height: 53px;
     border-radius: 10px;
@@ -90,7 +81,7 @@ color:#fff;
     height: 130px;
 }
 .fon{
-    background: url('grad.png');
+    background: url("img/grad.png");
     width: 686px;
     height: 55px;
     opacity: 0.85;
@@ -98,16 +89,14 @@ color:#fff;
     bottom: 57px;
 }
 .AddCompany-texth{
-    font-family: DaxlinePro-Regular;
-    font-size: 30px;
+    font:30px DaxlinePro-Regular;
 }
 .AddCompany-texts{
-    font-family:"Times New Roman";
-    font-size: 16px;
+    font: 16px "Times New Roman";
     }
 @font-face {
     font-family: DaxlinePro-Regular;
-    src: url(DaxlinePro-Regular.otf);
+    src: url("fonts/DaxlinePro-Regular.otf");
 }
 .AddCompanyAction{
     float: right;
@@ -115,18 +104,17 @@ color:#fff;
     height: 79px;
 }
 .AddCompanyAction-button{
-    background: url('but2.png');
+    background: url("img/but2.png");
     height: 79px;
     width: 225px;
 }
 .AddCompanyAction-button:hover{
-    background: url('but2-hover.png');
+    background: url("img/but2-hover.png");
     height: 79px;
     width: 225px;
 }
 .AddCompanyAction-underbuttontext-span{
-    font-family:"Times New Roman";
-    font-size: 14pt;
+    font: 14pt "Times New Roman";
     color:#abb5bc;
     font-style: italic;
 }
@@ -135,12 +123,11 @@ color:#fff;
     bottom:4px;
     position: relative;}
 select{
-    background: url('strela.png') 180px no-repeat;
+    background: url("img/strela.png") 180px no-repeat;
     -webkit-appearance: none;
 }
 table{
-    font-family:arial;
-    font-size: 16px;
+    font:16px arial ;
     text-align: center;
     margin-bottom:50px;
     width: 100%;
@@ -171,16 +158,13 @@ table{
 }
 .link-for-more{
     float: right;
-    color:#007db6;
     font-size:9pt;
+    color: #007db6;
     border-bottom: #007DB6 1px dotted;
     text-decoration: none;
     bottom: 49px;
     right:6px;
     position: relative;
-}
-td{
-    /*height: 14px;*/
 }
 .table0:hover td, .table1:hover td{
     background: #cee4e9;
@@ -213,4 +197,7 @@ td{
 }
 input {
     padding-left: 7px;
+}
+cf:after{
+    clear:both;
 }
